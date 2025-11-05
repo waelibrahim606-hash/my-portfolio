@@ -151,6 +151,44 @@ h2, h3 {
 }
 
 /* Courses/Training Styling */
+/* Courses/Training Styling */
+.course-list {
+    list-style: none;
+    padding: 0;
+}
+
+.course-item {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background: var(--background-light);
+}
+
+.course-item strong {
+    color: var(--primary-color);
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.course-details {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* New: Link styling for courses */
+.course-item a {
+    color: var(--primary-color); /* Make link color stand out */
+    text-decoration: underline;
+    transition: color 0.3s;
+    display: block; /* Ensures the whole title is clickable */
+}
+
+.course-item a:hover {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
 .course-list {
     list-style: none;
     padding: 0;
