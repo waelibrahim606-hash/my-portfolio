@@ -14,6 +14,9 @@ body {
     background: var(--background-light);
     color: var(--text-color);
     line-height: 1.6;
+    /* --- NEW CSS FOR SMOOTH SCROLLING --- */
+    scroll-behavior: smooth; 
+    /* ------------------------------------- */
 }
 
 /* Container for max width and centering */
@@ -22,6 +25,9 @@ body {
     margin: 0 auto;
     padding: 0 1.5rem; /* Add horizontal padding */
 }
+
+/* Header Styling */
+/* ... (rest of the header styling) ... */
 
 /* Header Styling */
 header {
